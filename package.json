@@ -1,0 +1,25 @@
+{
+  "name": "snekbot",
+  "version": "0.0.1",
+  "description": "Discord bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "music",
+    "discord",
+    "api"
+  ],
+  "author": "Leonardo R. da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "opusscript": "0.0.6",
+    "simple-youtube-api": "^5.0.2",
+    "ytdl-core": "^0.25.2"
+  }
+}
