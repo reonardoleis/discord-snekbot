@@ -8,21 +8,14 @@ const youtube = new YouTube(YOUTUBE_TOKEN);
 var players = new Array();
 var queues = {};
 
-//tirar dps
 
 
-//
-
-
-
-//players recebe o dispatcher com id do server
-//queues recebe o id do server e musica
 client.on('ready', () => {
   console.log('Logged in as' + client.user.tag);
   client.user.setActivity('.help');
 });
 
-//bot command functions
+
 function add(msg, text){
   		numbers = text.substr(5, text.length);
     	number = numbers.split(" ");
@@ -120,7 +113,7 @@ function add(msg, text){
   		}
   	}
 
-  	//end//
+  
 client.on('message', msg => {
   //bot commands
   text = msg.content;
